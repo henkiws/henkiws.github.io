@@ -4,10 +4,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { PublicRoutingModule } from './public-routing.module';
 import { HomeComponent } from './home/home.component';
+import { PortofolioComponent } from './portofolio/portofolio.component';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    PortofolioComponent
   ],
   imports: [
     CommonModule,

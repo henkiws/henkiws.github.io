@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/myApp",
+            "outputPath": "dist/portofolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,7 +25,16 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/modernizr.custom.js",
+              "src/assets/js/jquery.min.js",
+              "src/assets/components/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/components/jquery.inview/jquery.inview.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/nivo-lightbox.min.js",
+              "src/assets/js/script.js",
+              "src/assets/js/custom.js"
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

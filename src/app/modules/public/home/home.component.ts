@@ -4,6 +4,8 @@ import { Router } from '@angular/router';
 import { AuthService } from '../../core/services/auth.service';
 import { CryptoJsService } from '../../core/services/crypto-js.service';
 
+declare function load():any;
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,42 +13,43 @@ import { CryptoJsService } from '../../core/services/crypto-js.service';
 })
 export class HomeComponent implements OnInit {
 
-  dataForm: FormGroup;
-  submitted: boolean = false;
+  // dataForm: FormGroup;
+  // submitted: boolean = false;
 
   constructor(
-    private formBuilder: FormBuilder,
-    private router: Router,
-    private auth: AuthService,
-    private cryptoJSService: CryptoJsService
+  //   private formBuilder: FormBuilder,
+  //   private router: Router,
+  //   private auth: AuthService,
+  //   private cryptoJSService: CryptoJsService
   ) { }
 
   ngOnInit() {
-    this.dataForm = this.formBuilder.group({
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', Validators.required]
-    });
+    load()
+    // this.dataForm = this.formBuilder.group({
+    //   email: ['', [Validators.required, Validators.email]],
+    //   password: ['', Validators.required]
+    // });
   }
 
-  get f() { return this.dataForm.controls; }
+  // get f() { return this.dataForm.controls; }
 
-  onSubmit(){
-    this.submitted = true;
-    if (this.dataForm.invalid) {
-      return;
-    }
-    const data = {
-      "email" : this.f.email.value,
-      "password" :  this.cryptoJSService.encryptText(this.f.password.value)
-    }
-    this.auth.login(data)
-    .subscribe(
-      res => {
-        this.auth.setToken(`${res['access_token']}`)
-        this.router.navigate(['/admin'])
-      }
-    )
+  // onSubmit(){
+  //   this.submitted = true;
+  //   if (this.dataForm.invalid) {
+  //     return;
+  //   }
+  //   const data = {
+  //     "email" : this.f.email.value,
+  //     "password" :  this.cryptoJSService.encryptText(this.f.password.value)
+  //   }
+  //   this.auth.login(data)
+  //   .subscribe(
+  //     res => {
+  //       this.auth.setToken(`${res['access_token']}`)
+  //       this.router.navigate(['/admin'])
+  //     }
+  //   )
     
-  }
+  // }
 
 }
