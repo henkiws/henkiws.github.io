@@ -1,0 +1,36 @@
+    <!-- section -->
+    <section class="page bg-grey" id="news" style="padding-bottom: 300px;">
+        <div class="container">
+          <div class="title-page">
+            <h2 class="color-primary">News</h2>
+          </div>
+            <div class="row" *ngIf="data">
+                <div class="col-md-12">
+                    <carousel-component [mode]="'horizontal'" #topCarousel >
+                        <div class="item-carousel" *ngFor="let item of data" style="border: none;">
+                            <div class="post-slide2">
+                                <div class="post-img">
+                                    <a href="{{item.url}}" target="_blank"><img src="{{ item.urlToImage }}" class="img-responsive" style="height: -webkit-fill-available;"></a>
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="post-title"><a href="{{item.url}}" target="_blank">{{ item.title }}</a></h3>
+                                    <p class="post-description">
+                                        {{ item.description }}
+                                    </p>
+                                    <ul class="post-bar">
+                                        <li><i class="fa fa-calendar"></i> {{ item.publishedAt }}</li>
+                                        <li>
+                                            <i class="fa fa-folder"></i>
+                                            <a href="javascript:void(0)">{{ item['source'].name }}</a>
+                                        </li>
+                                    </ul>
+                                    <a href="{{item.url}}" target="_blank" class="read-more">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                      </carousel-component>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section -->

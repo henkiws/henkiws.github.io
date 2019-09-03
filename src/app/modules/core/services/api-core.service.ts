@@ -6,7 +6,8 @@ import { catchError } from 'rxjs/operators';
 
 const httpOptions = {
   headers: new HttpHeaders({
-    'Content-Type':  'application/json'
+    // 'Content-Type':  'application/json',
+    'Authorization': 'Bearer 7a8c535be2824353b40c549e903748ae'
   })
 };
 
