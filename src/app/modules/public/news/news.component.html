@@ -1,36 +1,31 @@
-    <!-- section -->
-    <section class="page bg-grey" id="news" style="padding-bottom: 300px;">
-        <div class="container">
-          <div class="title-page">
-            <h2 class="color-primary">News</h2>
-          </div>
-            <div class="row" *ngIf="data">
-                <div class="col-md-12">
-                    <carousel-component [mode]="'horizontal'" #topCarousel >
-                        <div class="item-carousel" *ngFor="let item of data" style="border: none;">
-                            <div class="post-slide2">
-                                <div class="post-img">
-                                    <a href="{{item.url}}" target="_blank"><img src="{{ item.urlToImage }}" class="img-responsive" style="height: -webkit-fill-available;"></a>
-                                </div>
-                                <div class="post-content">
-                                    <h3 class="post-title"><a href="{{item.url}}" target="_blank">{{ item.title }}</a></h3>
-                                    <p class="post-description">
-                                        {{ item.description }}
-                                    </p>
-                                    <ul class="post-bar">
-                                        <li><i class="fa fa-calendar"></i> {{ item.publishedAt }}</li>
-                                        <li>
-                                            <i class="fa fa-folder"></i>
-                                            <a href="javascript:void(0)">{{ item['source'].name }}</a>
-                                        </li>
-                                    </ul>
-                                    <a href="{{item.url}}" target="_blank" class="read-more">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                      </carousel-component>
-                </div>
+<div class='container'>
+    <div class='info'>
+      <h1>Article News</h1>
+    </div>
+    <ng-container *ngIf="!data">
+      <div class="loading">Please wait ...</div>
+    </ng-container>
+    <ng-container *ngIf="data">
+      <ng-container *ngFor="let item of data">
+        <div class='column'>
+          <div class='post-module'>
+            <div class='thumbnail'>
+              <div class='date'>
+                <div class='day'>{{ item.publishedAt | date:'dd' }}</div>
+                <div class='month'>{{ item.publishedAt | date:'MMM' }}</div>
+              </div>
+              <img src='{{ item.urlToImage }}'>
             </div>
+            <div class='post-content'>
+              <div class='category'>{{ item['source'].name }}</div>
+              <h4 class='title'><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h4>
+              <h6 class='sub_title'>{{ item.author == null ? item['source'].name : item.author }}</h6>
+              <p class='description'>{{ item.content }}</p>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- end section -->
+      </ng-container>
+    </ng-container>
+    
+    </div>
+  

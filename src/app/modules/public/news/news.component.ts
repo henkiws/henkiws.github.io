@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MasterService } from '../../core/services/master.service';
-import { CarouselComponent } from "ngx-carousel-lib";
 
 declare function slider():any
 
@@ -11,35 +10,21 @@ declare function slider():any
 })
 export class NewsComponent implements OnInit {
 
-  data: any
-  @ViewChild("topCarousel") topCarousel: CarouselComponent;
-  public degree = 25;
-  public moreSlides = 3;
-
+  data: any;
 
   constructor(
     private master: MasterService
   ) { }
 
   ngOnInit() {
-    // this.topCarousel.toggleMode();
-    // slider()
-    this.getData()
+    this.getData();
   }
 
   getData(){
-    this.master.getData('/top-headlines?country=id&category=technology')
+    this.master.getData('top-headlines?country=id&category=technology')
     .subscribe(
       res => {
-        this.data = res['articles']
-        // let arr = []
-        // let i = 0
-        // res['articles'].forEach(el => {
-        //   if(i < 10) arr.push(el)
-        //   i = i++
-        // });
-        // this.data = arr
-        // console.log(this.data)
+        this.data = res['articles'];
       }
     )
   }
