@@ -11,6 +11,7 @@ import { ErrorDialogComponent } from './modules/shared/error-dialog/error-dialog
 import { MainComponent } from './modules/public/layout/main/main.component';
 import { HeaderComponent } from './modules/public/layout/header/header.component';
 import { FooterComponent } from './modules/public/layout/footer/footer.component';
+import { NotfoundComponent } from './modules/public/notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './modules/public/layout/footer/footer.component
     ErrorDialogComponent,
     MainComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
