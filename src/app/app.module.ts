@@ -27,7 +27,7 @@ import { NotfoundComponent } from './modules/public/notfound/notfound.component'
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   providers: [
     { 

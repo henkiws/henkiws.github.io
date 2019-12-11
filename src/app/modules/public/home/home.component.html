@@ -181,7 +181,7 @@ familiar with technology API Design Restful.</p>
 <!-- end section -->
 <!-- section -->
 <section class="page bg-grey" id="portofolio">
-<div class="container">
+<!-- <div class="container">
   <div class="title-page">
     <h2 class="color-primary">Portofolio</h2>
   </div>
@@ -196,8 +196,32 @@ familiar with technology API Design Restful.</p>
         </div>
         </div>
     </div>
-  </div><!-- end row -->
-</div><!-- end container -->
+  </div>
+</div> -->
+<div class="container">
+  <h1 class="text-center">CSS Grid Portfolio Example</h1>
+  <hr>
+  <div class="gallery">
+    <div class="row">
+
+      <div class="col-sm-6" *ngFor="let item of portofolio">
+        <div class="view overlay hm-black-light gallery-item">
+            <div class="content">
+              <a href="javascript:void(0)" (click)="onSelect(item)">
+                <div class="content-overlay"></div>
+                <img class="content-image" src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <div class="content-details fadeIn-bottom">
+                  <h3 class="content-title">{{ item.title }}</h3>
+                  <p class="content-text">{{ item.description }}</p>
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>  <!--  -->
+  </div>
+</div>
 </section>
 <!-- end section -->
 <!-- section -->
