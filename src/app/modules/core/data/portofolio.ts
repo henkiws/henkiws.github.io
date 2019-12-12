@@ -1,9 +1,9 @@
 import {  Portofolio } from './classes/portofolio';
 
 export const Portofolios: Portofolio[] = [{
-    slug: "judul-satu",
-    title: "Judul 0",
-    description: "Deskripsi 0",
+    slug: "simple-cat",
+    title: "Simple CAT",
+    description: "Laravel",
     images: [{
         url: 'https://picsum.photos/id/103/1024/800?random=1',
         text: 'Satu',
@@ -20,14 +20,14 @@ export const Portofolios: Portofolio[] = [{
         desc: 'Des Satu'
       },
     ],
-    about: "<p>Project developed as a contractor with the SKY GO (UK) Desktop team. The Sky Go Desktop app is a Reactweb application build on top of the Electron framework.</p>  <p>At this project I acted as the lead UI/UX developer specialist being the bridge between UI/UX Design, PO and the UI development team. The main challenge was to the I structure from a react-virtualized grid into a pure CSS one. Which improved drastically the scalability and maintainability of the project.</p>",
-    technical: "<li>UI/UX Architecture</li> <li>UI/UX Animations</li> <li>React</li> <li>Redux</li> <li>Webpack</li> <li>Electron</li> <li>Javascript ES6</li> <li>CSS3 – CSS Modules, SASS, PostCSS</li> <li>HTML5 – semantic, video, canvas</li>",
-    resources: '<li>Download the app at <span class="fancy"><a target="_blank" title="SKY GO Desktop app" href="https://www.sky.com/watch/sky-go">https://www.sky.com/watch/sky-go</a></span></li>'
+    about: "<p>Project developed to improve skills and learn new things.</p>",
+    technical: "<li>Laravel</li> <li>MySql</li> <li>Jquery</li> <li>CSS Bootstrap</li> <li>Admin LTE Template</li>",
+    resources: '<li>Access the project source on <span class="fancy"><a target="_blank" href="https://github.com/henkiws">GITHUB</a></span></li>'
   },
   {
-    slug: "judul-dua",
-    title: "Judul 1",
-    description: "Deskripsi 1",
+    slug: "management-system-pulsa",
+    title: "Management System \"PULSA\"",
+    description: "CodeIgniter",
     images: [{
         url: 'https://picsum.photos/id/103/1024/800?random=1',
         text: 'Satu',
@@ -44,14 +44,14 @@ export const Portofolios: Portofolio[] = [{
         desc: 'Des Satu'
       },
     ],
-    about: "About 1",
-    technical: "Technical 1",
-    resources: "resource 1"
+    about: "<p>Project developed to improve skills and learn new things.</p>",
+    technical: "<li>Laravel</li> <li>MySql</li> <li>Jquery</li> <li>CSS Bootstrap</li> <li>Admin LTE Template</li>",
+    resources: '<li>Access the project source on <span class="fancy"><a target="_blank" href="https://github.com/henkiws">GITHUB</a></span></li>'
   },
   {
-    slug: "judul-tiga",
-    title: "Judul 2",
-    description: "Deskripsi 2",
+    slug: "management-system-raport",
+    title: "Management System \"RAPORT\"",
+    description: "CodeIgniter",
     images: [{
         url: 'https://picsum.photos/id/103/1024/800?random=1',
         text: 'Satu',
@@ -68,14 +68,14 @@ export const Portofolios: Portofolio[] = [{
         desc: 'Des Satu'
       },
     ],
-    about: "About 2",
-    technical: "Technical 2",
-    resources: "resource 2"
+    about: "<p>Project developed to improve skills and learn new things.</p>",
+    technical: "<li>Laravel</li> <li>MySql</li> <li>Jquery</li> <li>CSS Bootstrap</li> <li>Admin LTE Template</li>",
+    resources: '<li>Access the project source on <span class="fancy"><a target="_blank" href="https://github.com/henkiws">GITHUB</a></span></li>'
   },
   {
-    slug: "judul-empat",
-    title: "Judul 3",
-    description: "Deskripsi 3",
+    slug: "ecommerce-sepedanesia",
+    title: "E-Commerce \"SEPEDANESIA\"",
+    description: "Angular, Lumen",
     images: [{
         url: 'https://picsum.photos/id/103/1024/800?random=1',
         text: 'Satu',
@@ -92,14 +92,14 @@ export const Portofolios: Portofolio[] = [{
         desc: 'Des Satu'
       },
     ],
-    about: "About 3",
-    technical: "Technical 3",
-    resources: "resource 3"
+    about: "<p>Project developed to improve skills and learn new things. I use Angular as a frontend and Lumen as a source API.</p>",
+    technical: "<li>Angular</li> <li>Lumen</li> <li>MySql</li> <li>API Raja Ongkir</li> <li>Admin LTE Template</li> <li>API</li>",
+    resources: '<li>Access the project source on <span class="fancy"><a target="_blank" href="https://github.com/henkiws">GITHUB</a></span></li>'
   },
   {
-    slug: "judul-lima",
-    title: "Judul 4",
-    description: "Deskripsi 4",
+    slug: "tour-fyine",
+    title: "Tour Fyine",
+    description: "Angular, Node.js",
     images: [{
         url: 'https://picsum.photos/id/103/1024/800?random=1',
         text: 'Satu',
@@ -116,8 +116,32 @@ export const Portofolios: Portofolio[] = [{
         desc: 'Des Satu'
       },
     ],
-    about: "About 4",
-    technical: "Technical 4",
-    resources: "resource 4"
+    about: "<p>Office Work and Team Work</p>",
+    technical: "<li>Angular</li> <li>Node Js</li> <li>Template </li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://tour.fyine.com">https://tour.fyine.com</a></span></li>'
+  },
+  {
+    slug: "nirwanatranz-travel",
+    title: "Nirwanatranz Travel",
+    description: "Wordpress",
+    images: [{
+        url: 'https://picsum.photos/id/103/1024/800?random=1',
+        text: 'Satu',
+        desc: 'Des Satu'
+      },
+      {
+        url: 'https://picsum.photos/id/102/1024/800?random=1',
+        text: 'Satu',
+        desc: 'Des Satu'
+      },
+      {
+        url: 'https://picsum.photos/id/104/1024/800?random=1',
+        text: 'Satu',
+        desc: 'Des Satu'
+      },
+    ],
+    about: "<p>Travel and pick-up address according to destination, serving the delivery of goods or packages and documents.</p>",
+    technical: "<li>Wordpress</li> <li>Elementor Wordpress</li> <li>Yoast SEO Wordpress</li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://nirwanatranz.com">https://nirwanatranz.com</a></span></li>'
   }
 ];
