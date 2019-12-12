@@ -117,7 +117,7 @@ export const Portofolios: Portofolio[] = [{
       },
     ],
     about: "<p>Office Work and Team Work. We use Angular as a frontend and Node.js as a source API.</p>",
-    technical: "<li>Angular</li> <li>Node Js</li> <li>Template Citytours by Ansonika</li>",
+    technical: "<li>Angular</li> <li>Node Js</li> <li>MongoDB</li> <li>Template Citytours by Ansonika</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://tour.fyine.com">https://tour.fyine.com</a></span></li>'
   },
   {
@@ -141,7 +141,7 @@ export const Portofolios: Portofolio[] = [{
       },
     ],
     about: "<p>Office Work and Team Work. We use Angular as a frontend and Lumen as a source API.</p>",
-    technical: "<li>Angular</li> <li>Lumen</li> <li>Template Admin by Ubold</li>",
+    technical: "<li>Angular</li> <li>Lumen</li> <li>PostgreSQL</li> <li>Template Admin by Ubold</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://kasir.fyine.com">https://kasir.fyine.com</a></span></li>'
   },
   {
@@ -165,7 +165,7 @@ export const Portofolios: Portofolio[] = [{
       },
     ],
     about: "<p>Travel and pick-up address according to destination, serving the delivery of goods or packages and documents.</p>",
-    technical: "<li>Wordpress</li> <li>Elementor Wordpress</li> <li>Yoast SEO Wordpress</li>",
+    technical: "<li>Wordpress</li> <li>Elementor Wordpress</li> <li>Yoast SEO Wordpress</li> <li>Other Worpress Plugins</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://nirwanatranz.com">https://nirwanatranz.com</a></span></li>'
   }
 ];
