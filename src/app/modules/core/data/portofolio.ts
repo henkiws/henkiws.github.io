@@ -116,9 +116,33 @@ export const Portofolios: Portofolio[] = [{
         desc: 'Des Satu'
       },
     ],
-    about: "<p>Office Work and Team Work</p>",
-    technical: "<li>Angular</li> <li>Node Js</li> <li>Template </li>",
+    about: "<p>Office Work and Team Work. We use Angular as a frontend and Node.js as a source API.</p>",
+    technical: "<li>Angular</li> <li>Node Js</li> <li>Template Citytours by Ansonika</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://tour.fyine.com">https://tour.fyine.com</a></span></li>'
+  },
+  {
+    slug: "kasir-fyine",
+    title: "Kasir Fyine",
+    description: "Angular, Lumen",
+    images: [{
+        url: 'https://picsum.photos/id/103/1024/800?random=1',
+        text: 'Satu',
+        desc: 'Des Satu'
+      },
+      {
+        url: 'https://picsum.photos/id/102/1024/800?random=1',
+        text: 'Satu',
+        desc: 'Des Satu'
+      },
+      {
+        url: 'https://picsum.photos/id/104/1024/800?random=1',
+        text: 'Satu',
+        desc: 'Des Satu'
+      },
+    ],
+    about: "<p>Office Work and Team Work. We use Angular as a frontend and Lumen as a source API.</p>",
+    technical: "<li>Angular</li> <li>Lumen</li> <li>Template Admin by Ubold</li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://kasir.fyine.com">https://kasir.fyine.com</a></span></li>'
   },
   {
     slug: "nirwanatranz-travel",
