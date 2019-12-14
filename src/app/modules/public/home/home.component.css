@@ -22,6 +22,9 @@
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+       filter: blur(5px);
+       -webkit-filter: blur(5px);
+      height: 300px;
   }
   
   .container .title{
@@ -72,6 +75,7 @@
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+    box-shadow: 0 8px 10px -10px black;
   }
   
   .content:hover .content-details{
@@ -120,3 +124,7 @@
   .page.bg-dark {
     background: #323538;
   }
+.fa-linkedin{
+  background: #125688;
+    color: white;
+}

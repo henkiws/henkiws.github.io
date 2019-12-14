@@ -1,4 +1,4 @@
-<section class="wide-screen hightlight bg-header">
+<section class="wide-screen hightlight bg-header" id="homes">
   <div class="center-wrapp">
     <div class="container">
       <div class="row" style="margin-bottom: 20px">
@@ -77,7 +77,7 @@ familiar with technology API Design Restful.</p>
 </section>
 <!-- end section -->
 <!-- section -->
-<section class="page bg-grey" id="school">
+<section class="page bg-grey" id="education">
   <div class="container">
     <div class="title-page">
       <h2 class="color-primary">Education</h2>
@@ -199,7 +199,7 @@ familiar with technology API Design Restful.</p>
   </div>
 </div> -->
 <div class="container">
-  <h1 class="text-center">CSS Grid Portfolio Example</h1>
+  <h1 class="text-center">Portfolio</h1>
   <hr>
   <div class="gallery">
     <div class="row">
@@ -209,7 +209,7 @@ familiar with technology API Design Restful.</p>
             <div class="content">
               <a href="javascript:void(0)" (click)="onSelect(item)">
                 <div class="content-overlay"></div>
-                <img class="content-image" src="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                <img class="content-image" src="{{ item.images[0].url }}">
                 <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">{{ item.title }}</h3>
                   <p class="content-text">{{ item.description }}</p>
@@ -286,7 +286,8 @@ familiar with technology API Design Restful.</p>
           <address>
               <strong class="color-primary">Social Media</strong><br>
               <span class="fa fa-facebook"></span><a href="//facebook.com/henki.subakti" target="_blank"> henki.subakti</a><br>
-              <span class="fa fa-instagram"></span><a href="//instagram.com/henki.subakti" target="_blank"> henki.subakti</a>
+              <span class="fa fa-instagram"></span><a href="//instagram.com/henki.subakti" target="_blank"> henki.subakti</a><br>
+              <span class="fa fa-linkedin"></span><a href="//id.linkedin.com/in/henki-wisnu-subakti-707931a8" target="_blank"> henki wisnu subakti</a>
             </address>
         </div>
       </div>
