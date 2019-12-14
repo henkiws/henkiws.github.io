@@ -32,10 +32,7 @@ export class PortofolioComponent {
   ) { }
 
   ngOnInit() {
-    console.log(this.portofolio)
-    console.log(this.slug)
-    // console.log(this.portofolio)
-    // console.log(this.portofolio[0].images)
+    
   }
 
 }
