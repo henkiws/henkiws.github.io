@@ -224,3 +224,16 @@ body {
     color: #e74c3c;
   }
   
+  @media (max-width:720px){
+    .column{
+      padding-right: unset;
+    }
+    .container .column {
+      width: auto;
+      /* padding: 0 25px; */
+      -webkti-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+    }
+  }

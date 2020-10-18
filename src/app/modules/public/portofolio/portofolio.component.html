@@ -1,3 +1,51 @@
-<p>
-  portofolio works!
-</p>
+<ng-container *ngFor="let item of portofolio">
+<section class="page bg-dark" *ngIf="item.slug === slug">
+  <div class="container">
+    <div class="title-page">
+      <h2 class="color-primary">{{ item.title }}</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12 column">
+        <swiper [config]="config" [(index)]="index">
+          <div *ngFor="let slide of item.images" style="overflow: hidden;">
+            <div class="container">
+              <div class="content">
+                <a href="javascript:void(0)">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" [src]="slide.url">
+                  <div class="content-details fadeIn-bottom">
+                    <h3 class="content-title">{{ slide.text }}</h3>
+                    <p class="content-text">{{ slide.desc }}</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </swiper>
+        <div class="text">
+          <div class="section">
+            <h2>About this project</h2>
+            <hr>
+            <div [innerHTML]="item.about"></div>
+          </div>
+          <div class="section">
+            <h2>Technical Sheet</h2>
+            <p>Code technologies I got involved with while working on this project.</p>
+            <hr>
+            <ul itemprop="keywords">
+              <div [innerHTML]="item.technical"></div>
+            </ul>
+          </div>
+          <div class="section">
+            <h2>Resources</h2>
+            <hr>
+            <ul>
+              <div [innerHTML]="item.resources"></div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- end row -->
+  </div>
+</section>
+</ng-container>
