@@ -123,8 +123,76 @@ export const Portofolios: Portofolio[] = [{
         desc: ''
       },
     ],
-    about: "<p>Travel and pick-up address according to destination, serving the delivery of goods or packages and documents.</p>",
+    about: "<p><b>Individu Project as Developer</b>.Travel and pick-up address according to destination, serving the delivery of goods or packages and documents.</p>",
     technical: "<li>Wordpress</li> <li>Elementor Wordpress</li> <li>Yoast SEO Wordpress</li> <li>Other Worpress Plugins</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://nirwanatranz.com">https://nirwanatranz.com</a></span></li>'
-  }
+  },
+  {
+    slug: "sifab",
+    title: "SIFAB",
+    description: "Laravel",
+    images: [{
+        url: 'assets/img/portofolio/sifab/sifab.png',
+        text: 'SIFAB',
+        desc: ''
+      }
+    ],
+    about: "<p><b>Team Project as Developer</b>. Tracer Study for IAIN Surakarta.</p>",
+    technical: "<li>Laravel</li> <li>User Management</li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://fab-iainsurakarta.ac.id/">https://fab-iainsurakarta.ac.id/</a></span></li>'
+  },
+  {
+    slug: "simrs",
+    title: "Sistem Informasi Manajemen Rumah Sakit (SIMRS)",
+    description: "Laravel, CodeIgniter",
+    images: [{
+        url: 'assets/img/portofolio/simrs/simrs.png',
+        text: 'SIMRS',
+        desc: ''
+      }
+    ],
+    about: "<p><b>Team Project as Maintenance</b>. Hospital Management Information System</p>",
+    technical: "<li>Laravel</li> <li>User Management</li> <li>Integrate API</li> <li>Develop API for Android.</li>",
+    resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
+  },
+  {
+    slug: "customer-portal",
+    title: "Customer Portal",
+    description: "Laravel",
+    images: [
+      {
+        url: 'assets/img/portofolio/customer_portal/customer_portal1.png',
+        text: 'Customer Portal',
+        desc: ''
+      },
+      {
+        url: 'assets/img/portofolio/customer_portal/customer_portal2.png',
+        text: 'Customer Portal',
+        desc: ''
+      }
+    ],
+    about: "<p>Customer Portal like a Customer Relationship Management (CRM) system and integrate with odoo.</p>",
+    technical: "<li>Laravel</li> <li>User Management</li> <li>Management Many Project</li> <li>Chat Function</li> <li>File Management</li>",
+    resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
+  },
+  {
+    slug: "koahli",
+    title: "Koahli - Freelance Service Marketplace",
+    description: "Laravel",
+    images: [
+      {
+        url: 'assets/img/portofolio/koahli/koahli1.png',
+        text: 'Koahli',
+        desc: ''
+      },
+      {
+        url: 'assets/img/portofolio/koahli/koahli2.png',
+        text: 'Koahli',
+        desc: ''
+      }
+    ],
+    about: "<p><b>Individu Project as Developer</b>. Freelance Service Marketplace in Indonesia.</p>",
+    technical: "<li>Laravel</li> <li>User Management</li> <li>Function Chat</li> <li>Payment Gateway</li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://koahli.com/">https://koahli.com/</a></span></li>'
+  },
 ];
