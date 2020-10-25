@@ -133,7 +133,12 @@ export const Portofolios: Portofolio[] = [{
     description: "Laravel",
     images: [
       {
-        url: 'assets/img/portofolio/caritek/caritek.png',
+        url: 'assets/img/portofolio/caritek/caritek1.png',
+        text: 'cahaya riset teknologi',
+        desc: ''
+      },
+      {
+        url: 'assets/img/portofolio/caritek/caritek2.png',
         text: 'cahaya riset teknologi',
         desc: ''
       }
