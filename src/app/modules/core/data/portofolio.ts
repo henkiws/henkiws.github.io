@@ -128,6 +128,21 @@ export const Portofolios: Portofolio[] = [{
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://nirwanatranz.com">https://nirwanatranz.com</a></span></li>'
   },
   {
+    slug: "caritek",
+    title: "Company Profil - Cahaya Riset Teknologi",
+    description: "Laravel",
+    images: [
+      {
+        url: 'assets/img/portofolio/caritek/caritek.png',
+        text: 'cahaya riset teknologi',
+        desc: ''
+      }
+    ],
+    about: "<p><b>Individu Project as Developer</b>.Company Profil Cahaya Riset Teknologi.</p>",
+    technical: "<li>Laravel</li> <li>User Management</li> <li>Post Management</li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://caritek.co.id/">https://caritek.co.id/</a></span></li>'
+  },
+  {
     slug: "sifab",
     title: "SIFAB",
     description: "Laravel",
@@ -191,7 +206,7 @@ export const Portofolios: Portofolio[] = [{
         desc: ''
       }
     ],
-    about: "<p><b>Individu Project as Developer</b>. Freelance Service Marketplace in Indonesia.</p>",
+    about: "<p><b>Team Project as Developer</b>. Freelance Service Marketplace in Indonesia.</p>",
     technical: "<li>Laravel</li> <li>User Management</li> <li>Function Chat</li> <li>Payment Gateway</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://koahli.com/">https://koahli.com/</a></span></li>'
   },
