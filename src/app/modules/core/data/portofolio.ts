@@ -161,20 +161,20 @@ export const Portofolios: Portofolio[] = [{
     technical: "<li>Laravel</li> <li>User Management</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://fab-iainsurakarta.ac.id/">https://fab-iainsurakarta.ac.id/</a></span></li>'
   },
-  {
-    slug: "simrs",
-    title: "Sistem Informasi Manajemen Rumah Sakit (SIMRS)",
-    description: "Laravel, CodeIgniter",
-    images: [{
-        url: 'assets/img/portofolio/simrs/simrs.png',
-        text: 'SIMRS',
-        desc: ''
-      }
-    ],
-    about: "<p><b>Team Project as Maintenance</b>. Hospital Management Information System</p>",
-    technical: "<li>Laravel</li> <li>User Management</li> <li>Integrate API</li> <li>Develop API for Android.</li>",
-    resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
-  },
+  // {
+  //   slug: "simrs",
+  //   title: "Sistem Informasi Manajemen Rumah Sakit (SIMRS)",
+  //   description: "Laravel, CodeIgniter",
+  //   images: [{
+  //       url: 'assets/img/portofolio/simrs/simrs.png',
+  //       text: 'SIMRS',
+  //       desc: ''
+  //     }
+  //   ],
+  //   about: "<p><b>Team Project as Maintenance</b>. Hospital Management Information System</p>",
+  //   technical: "<li>Laravel</li> <li>User Management</li> <li>Integrate API</li> <li>Develop API for Android.</li>",
+  //   resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
+  // },
   {
     slug: "customer-portal",
     title: "Customer Portal",
