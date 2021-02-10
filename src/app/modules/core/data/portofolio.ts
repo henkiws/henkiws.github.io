@@ -175,26 +175,26 @@ export const Portofolios: Portofolio[] = [{
   //   technical: "<li>Laravel</li> <li>User Management</li> <li>Integrate API</li> <li>Develop API for Android.</li>",
   //   resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
   // },
-  {
-    slug: "customer-portal",
-    title: "Customer Portal",
-    description: "Laravel",
-    images: [
-      {
-        url: 'assets/img/portofolio/customer_portal/customer_portal1.png',
-        text: 'Customer Portal',
-        desc: ''
-      },
-      {
-        url: 'assets/img/portofolio/customer_portal/customer_portal2.png',
-        text: 'Customer Portal',
-        desc: ''
-      }
-    ],
-    about: "<p>Customer Portal like a Customer Relationship Management (CRM) system and integrate with odoo.</p>",
-    technical: "<li>Laravel</li> <li>User Management</li> <li>Management Many Project</li> <li>Chat Function</li> <li>File Management</li>",
-    resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
-  },
+  // {
+  //   slug: "customer-portal",
+  //   title: "Customer Portal",
+  //   description: "Laravel",
+  //   images: [
+  //     {
+  //       url: 'assets/img/portofolio/customer_portal/customer_portal1.png',
+  //       text: 'Customer Portal',
+  //       desc: ''
+  //     },
+  //     {
+  //       url: 'assets/img/portofolio/customer_portal/customer_portal2.png',
+  //       text: 'Customer Portal',
+  //       desc: ''
+  //     }
+  //   ],
+  //   about: "<p>Customer Portal like a Customer Relationship Management (CRM) system and integrate with odoo.</p>",
+  //   technical: "<li>Laravel</li> <li>User Management</li> <li>Management Many Project</li> <li>Chat Function</li> <li>File Management</li>",
+  //   resources: '<li>The project is online at <span class="fancy"><a href="#">#</a></span></li>'
+  // },
   {
     slug: "koahli",
     title: "Koahli - Freelance Service Marketplace",
