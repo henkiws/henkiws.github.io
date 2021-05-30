@@ -215,4 +215,34 @@ export const Portofolios: Portofolio[] = [{
     technical: "<li>Laravel</li> <li>User Management</li> <li>Function Chat</li> <li>Payment Gateway</li>",
     resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://koahli.com/">https://koahli.com/</a></span></li>'
   },
+  {
+    slug: "sazime",
+    title: "Sazime - Variasi dan Aksesoris Sangkar",
+    description: "Laravel",
+    images: [
+      {
+        url: 'assets/img/portofolio/sazime/sazime4.png',
+        text: 'Sazime',
+        desc: ''
+      },
+      {
+        url: 'assets/img/portofolio/sazime/sazime1.png',
+        text: 'Sazime',
+        desc: ''
+      },
+      {
+        url: 'assets/img/portofolio/sazime/sazime2.png',
+        text: 'Sazime',
+        desc: ''
+      },
+      {
+        url: 'assets/img/portofolio/sazime/sazime3.png',
+        text: 'Sazime',
+        desc: ''
+      }
+    ],
+    about: "<p><b>Individu Project as Developer</b>. Variety and cage accessories.</p>",
+    technical: "<li>Laravel</li> <li>User Management</li> <li>Whatsapp Chat</li> <li>SEO Friendly</li>",
+    resources: '<li>The project is online at <span class="fancy"><a target="_blank" href="https://sangkarsazime.com/">https://sangkarsazime.com/</a></span></li>'
+  },
 ];
